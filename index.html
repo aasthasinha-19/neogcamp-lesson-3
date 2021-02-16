@@ -3,117 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>home | adarsh balika</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>My component library</h1>
-    <p>I want to make a library which will make my projects look good and consistent.</p>
-
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p>Let me show you the normal text.This is free flowing and will wrap at the end like a paragraph.</p>
-    <p>This paragraph will have a <strong>bold</strong>text</p>
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the specific width</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-    
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary">Secondary Link</a>
-    <hr>
-    
-    <h2>@lists</h2>
-    
-
-    <h3>unordered list</h3>
-    <p>This list will not have the bullet </p>
-
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item two</li>
-        <li>Item three</li>
-
-    </ul>
-<h3>unordered inline list</h3>
-<ul class="list non-bullet">
-    <li class="list-item-inline">Inline Item One</li>
-    <li class="list-item-inline">Inline Item Twp</li>
-    <li class="list-item-inline">Inline Item Three</li>
-  
-</ul>
-<h3>reverse ordered list</h3>
-
-<ol reversed>
-<li>milk</li>
-<li>eggs</li>
-<li>break</li>
-</ol>
-
-<hr>
-<h2>@nav</h2>
-<nav class="navigation container">
-    <div class="nav-brand">iamBrand</div>
-    <ul class="list-non-bullet nav-pills">
+    <nav class="navigation container">
+    <div class="nav-brand">I am Developer</div>
+    <ul class="list-non-bullet nav-pills"
         <li class="list-item-inline">
-            <a class="link link-active" href="/">home</a>
+            <a class="link link-active" href="/index.html">home</a>
         </li>
         <li class="list-item-inline">
-            <a class="link" href="/">products</a>
+            <a class="link" href="/projects.html">projects</a>
         </li>
         <li class="list-item-inline">
-            <a class="link" href="/">about</a>
+            <a class="link" href="/blogs.html">blogs</a>
 
         </li>
 
     </ul>
 </nav>
-<hr>
-
-<h2>@header</h2>
-
 <header class="hero">
-    <img src="images/hero.svg">
-    <h1>heading inside header</h1>
+    <img class="hero-img" src="images/hero.svg">
+    <h1 class="hero-heading">aadarsh balika the <span class="heading-inverted">
+   web devloper     
+    </span></h1>
 </header>
-<hr>
-<h2>@section</h2>
-<section>
-    <h3>white section</h3>
-    <p>This will have a white background</p>
-
-</section>
-<section>
-    <h3>Off white section</h3>
-    <p>this will have a gray background</p>
+<section class="section ow">
+    <div class="container container-center">
+    <h1>Technologies</h1>
+    <p>I am familiar with Html,CSS,Bootstrap,Javascript,C++ and Web Hosting</p>
+    </div>
 </section>
 
-<hr>
+<section class="section">
+    <div class="container container-center">
+    <h1>Projects</h1>
+    <p>All my projects which are hosted online are included here along with the source code</p>   </div>
+    <a class="link link-primary" href="/">See Projects</a>
+</section>
 
-<h2>@footer</h2>
-<footer>
-   <div>Some small heading inside footer</div>
-   <ul>
-       <li>socialone</li>
-       <li>socialtwo</li>
-       <li>socialthree</li>   
-   </ul>
+<section class="section ow">
+    <div class="container container-center">
+    <h1>Blogs</h1>
+    <p>"Blogging is the best communiction mechanism handed to us by the long tail of the internet".You can check out my blogs here.</p>
+    <a class="link link-primary" href="/">View Blogs</a>
+    </div>    
+</section>
 
-</footer>
+<footer class="footer">
+    <div class="footer-header">Social Media Profiles</div>
+    <ul class=" social-links list-non-bullet">
+        <li class="list-item-inline"><a class="links" href="/">Github</a></li>
+        <li class="list-item-inline" ><a class="links" href="/">LinkedIn</a></li>
+        <li class="list-item-inline" ><a class="links" href="/">Instagram</a></li>   
+    </ul>
+ 
+ </footer>
 
-</div>
+
+
+
 </body>
 </html>
